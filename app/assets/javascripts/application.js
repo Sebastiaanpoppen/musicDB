@@ -16,3 +16,9 @@
 //= require cable
 //= require materialize-sprockets
 //= require materialize/extras/nouislider
+
+$('.form-control').keypress(function(e){
+  if(e.which == 13){
+       $(this).closest('form').submit();
+   }
+});
