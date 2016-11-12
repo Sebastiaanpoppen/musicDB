@@ -17,6 +17,14 @@
 @import 'materialize';
 @import "materialize/extras/nouislider";
 
-body {
+nav {
+  background-color: #263238;
+}
 
+.btn {
+  background-color: #546e7a;
+
+  &:hover {
+    background-color: #90a4ae;
+  }
 }
